@@ -21,7 +21,12 @@ body{
 .text_uppercase{
   text-transform: uppercase;
 }
-
+.text_capitalize{
+  text-transform: capitalize;
+}
+#font_color_black{
+  color: black;
+}
 .list_inline{
   list-style: none;
 }
