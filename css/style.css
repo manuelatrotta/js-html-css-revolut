@@ -40,7 +40,11 @@ body{
   font-size: 18px;
   color: #ececed;
 }
-
+.nav-left ul li img{
+  width: 100px;
+  text-align: center;
+  vertical-align:text-bottom;
+}
 .width_80{
   width: 80%;
   margin: 0 auto;
