@@ -53,6 +53,7 @@ body{
   width: 90%;
   margin: 0 auto;
 }
+
 .wrapper{
   width: 100%;
   margin: 0 auto;
@@ -97,4 +98,10 @@ body{
 }
 .dropdown.active{
   display: flex;
+}
+.width_350{
+  width: 350px;
+}
+.left_200{
+  left: -200px;
 }
