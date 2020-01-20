@@ -40,6 +40,10 @@ body{
   font-size: 18px;
   color: #ececed;
 }
+.list_inline li a:hover{
+  color: black;
+  cursor: pointer;
+}
 .nav-left ul li img{
   width: 100px;
   text-align: center;
@@ -53,15 +57,18 @@ body{
   width: 100%;
   margin: 0 auto;
   padding: 10px;
-  background-color: red;
 }
 .nav-left ul button{
   width: 140px;
   height: 50px;
-  border: 1px solid #D2007E;
+  border: 1px solid #d10092;
   border-radius: 20px;
-  background-color: #D2007E;
+  background-color: #d10092;
   color: white;
   font-size: 15px;
   font-weight: bold;
+}
+.nav-left ul button:hover{
+  background-color: #d10079;
+  cursor: pointer;
 }
