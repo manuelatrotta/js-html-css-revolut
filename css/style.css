@@ -18,9 +18,13 @@
 .list_inline{
   list-style: none;
 }
+.list_inline li{
+  display: inline-block;
+  padding: 15px;
+  line-height: 90px;
+}
 .wrapper{
-  width: 90%;
-  height: 100px;
+  width: 100%;
   margin: 0 auto;
   background-color: red;
 }
