@@ -79,8 +79,8 @@ body{
 .dropdown{
   position: absolute;
   top: 80px;
-  left: 650px;
-  width: 180px;
+  left: 670px;
+  width: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,6 +91,6 @@ body{
   box-shadow: 10px 10px 5px #dedede;
 }
 .dropdown li{
-  line-height: 20px;
-  text-align: justify;
+  line-height: 40px;
+  text-align:center;
 }
