@@ -1,6 +1,6 @@
-$(document) .ready(
+$(document).ready(
   function() {
-    $('.dropdown_parent > a').click(
+    $('.dropdown_parent > a').mouseover(
       function() {
         $(this).next('.dropdown').toggleClass('active');
       }
