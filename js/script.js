@@ -6,7 +6,7 @@ $(document).ready(
         $(this).next('.dropdown').addClass('active');
       }
     );
-    $('.dropdown_parent > a').click(
+    $('.dropdown_parent > a').mouseleave(
       function() {
         $(this).next('.dropdown').removeClass('active');
     });
